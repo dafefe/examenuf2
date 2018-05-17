@@ -12,10 +12,8 @@ import static org.junit.Assert.*;
  *
  * @author alumne
  */
-public class CompteTest {
-    
+public class testTest {
 
-    /*
     @Test
     public void Diposit() {
         assertEquals(500, this);
@@ -39,5 +37,5 @@ public class CompteTest {
         assertEquals(500, this);
         
     }
-    */
+    
 }
