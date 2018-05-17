@@ -1,3 +1,5 @@
+package javadoc;
+
 
 import java.util.Scanner;
 
