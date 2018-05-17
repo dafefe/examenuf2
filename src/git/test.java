@@ -10,22 +10,22 @@ package git;
  * @author David
  */
 public class test {
-    
-    Compte compte=new Compte(500);
-    
-    public int ingresar(int num){
+
+    Compte compte = new Compte(500);
+
+    public int ingresar(int num) {
         compte.Diposit(num);
         return compte.Saldo();
     }
-    
-    public int enretirament(int num){
+
+    public int enretirament(int num) {
         compte.Enretirament(num);
         return compte.Saldo();
     }
-    /*
-    public int transferencia(int num){
-        compte.Diposit(num);
+
+    public int transferencia(Compte desti, int quantitat) {
+        compte.Transferencia(desti, quantitat);
         return compte.Saldo();
     }
-    */
+
 }
