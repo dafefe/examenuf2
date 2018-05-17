@@ -14,28 +14,24 @@ import static org.junit.Assert.*;
  */
 public class testTest {
 
+    test t=new test();
     @Test
     public void Diposit() {
-        assertEquals(500, this);
+        assertEquals(1000, t.ingresar(500));
         
     }
     
     @Test
     public void Enretirament() {
-        
+        assertEquals(400, t.enretirament(100));
         
     }
     
+    /*
     @Test
     public void Transferencia() {
         
         
     }
-    
-    @Test
-    public void Saldo() {
-        assertEquals(500, this);
-        
-    }
-    
+    */
 }
