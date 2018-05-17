@@ -31,7 +31,7 @@ public class testTest {
 
     @Test
     public void Transferencia() {
-        assertEquals(200, t.transferencia(compte,100));
+        assertEquals(400, t.transferencia(compte,100));
 
     }
 
